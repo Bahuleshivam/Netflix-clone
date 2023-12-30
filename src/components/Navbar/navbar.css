@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&family=Roboto&display=swap');
+
+/* body{
+    font-family: 'Martel Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+} */
+.navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 193px;
+  margin: 0px 0 0px 130px;
+}
+
+.sign-in-btn {
+  width: 80px;
+  height: 32px;
+  background: red;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+}
+
+.language {
+  width: 125px;
+  height: 33px;
+  padding: 5px 3px 6px 33px;
+  background: transparent;
+  color: white;
+  border: 1px solid #646d76;
+  border-radius: 5px;
+  margin-right: 22px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.options {
+  margin-right: 148px;
+}
+
+.language-option{
+  color: white;
+  background: transparent;
+}

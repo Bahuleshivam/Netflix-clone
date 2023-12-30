@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&family=Noto+Sans:wght@900&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&family=Roboto&display=swap');
+
+/* body{
+  font-family: 'Martel Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+} */
+
+.home-div {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/c31c3123-3df7-4359-8b8c-475bd2d9925d/15feb590-3d73-45e9-9e4a-2eb334c83921/IN-en-20231225-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+  background-size: 124% 124%;
+  background-position: center;
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.79) 32%, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.86) 100%);
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 700px;
+}
+
+.content span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 80%;
+  height: 50%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.content-p1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-top: 15px;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.input-box {
+  width: 100%;
+  display: flex;
+  margin: 10px 0 0 0;
+  justify-content: center;
+}
+
+.content-p2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 25px;
+  margin-bottom: 8px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.quetion-form{
+  margin: 29px 0 56px 0;
+}
+
+.input-email {
+  width: 50%;
+  height: 31px;
+  padding: 11px 13px 11px 34px;
+  background-color: #0000008a;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.getStart-btn {
+  width: 30%;
+  height: 55px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 9px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.line {
+  width: 100%;
+  height: 0.5rem;
+  background-color: rgb(35, 35, 35);
+}
+
+.section-1 {
+  width: 100%;
+  height: 500px;
+  background: #000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-box-2 {
+  width: 40%;
+  height: 80%;
+}
+
+.section-box-2-img {
+  width: 100%;
+  height: 96%;
+  z-index: 1;
+  position: relative;
+}
+
+.tv-video {
+  position: relative;
+  top: -77%;
+  left: 11%;
+  width: 77%;
+  height: 52%;
+  z-index: 0;
+}
+
+.section-box-h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: 'Noto Sans', sans-serif;
+
+}
+
+.section-box-p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-top: 15px;
+}
+
+.section-box-1 {
+  width: 37%;
+  height: auto;
+
+}
+
+.animi{
+  width: 56%;
+  height: 99px;
+  position: relative;
+  top: -36%;
+  left: 22%;
+  border-radius: 15px;
+  border: 2px solid white;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+
+.animi-img-1{
+  width: 63px;
+  height: 78px;
+}
+
+.animi-img-2{
+  width: 59px;
+  height: 63px;
+}
+
+.mobile-png{
+  width: 100%;
+}
+
+.computer-video{
+  position: relative;
+  top: -91%;
+  left: 19%;
+  width: 61%;
+  height: 52%;
+  z-index: 0;
+}
+
+.footer{
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  color: rgba(255,255,255,0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-div{
+  display: flex;
+  width: 80%;
+  height: 42%;
+  margin: 10px auto;
+  color: rgba(255,255,255,0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  justify-content: space-around;
+}
+
+.footer-box ul{
+  line-height: 2.5;
+}
+
+
+li{
+  list-style: none;
+
+}
+
+footer li a{
+  color: rgba(255,255,255,0.7);
+  font-family: sans-serif;
+
+}
+
+.footer-p, .language{
+  margin: 10px 187px;
+  font-family: sans-serif;
+}
+
+.language{
+  width: 125px;
+  height: 33px;
+  padding: 5px 3px 6px 33px;
+  background: transparent;
+  color: white;
+  border: 1px solid #646d76;
+  border-radius: 5px;
+  margin-right: 22px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+.quetion-section{
+  width: 100%;
+  height: fit-content;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quetion-sub-box h1{
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 63px;
+  margin-bottom: 11px;
+
+}
+
+.quetion-sub-box{
+  width: 76%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+/* Accordion Styles */
+.accordion {
+  margin: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.accordion-item {
+  width: 100%;
+  margin: 0 0 0.5rem 0;
+
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 33px 9px 27px;
+  cursor: pointer;
+  background-color: rgb(45,45,45);
+  height: 66px;
+  border: none;
+  font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(255,255,255);
+  font-size: 1.4rem; 
+  font-weight: inherit;
+  margin-bottom: 0.0625rem;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+  background-color: #3e3d3d;
+}
+
+.accordion-header h3 {
+  margin: 0;
+}
+
+.accordion-content {
+  padding: 0 1.5rem;
+  /* display: none; */
+  transition: max-height 0.3s ease-in-out;
+  /* max-height: 0; */
+  overflow: hidden;
+  background-color: rgb(45,45,45);
+  color: rgb(255,255,255);
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: left;
+  font-family: sans-serif;
+
+}
+
+.accordion-content p {
+  margin: 0;
+  padding: 1.5rem 0;
+}
+
+.icon {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.active {
+  transform: rotate(45deg);
+}
+
+.active + .accordion-content {
+  display: block;
+  max-height: 1000px; /* Set a sufficiently large value */
+}
+
